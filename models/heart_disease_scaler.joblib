@@ -1,0 +1,45 @@
+{
+  "format": "scikit-learn-standard-scaler-v2",
+  "type": "StandardScaler",
+  "disease_id": "heart_disease",
+  "feature_names": [
+    "Age",
+    "Sex",
+    "ChestPainType",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "RestingECG",
+    "MaxHR",
+    "ExerciseAngina",
+    "Oldpeak",
+    "ST_Slope"
+  ],
+  "mean": [
+    54.0,
+    0.5,
+    0.6,
+    128.0,
+    205.0,
+    0.2,
+    0.25,
+    78.0,
+    0.2,
+    0.4,
+    0.3
+  ],
+  "scale": [
+    12.0,
+    0.5,
+    0.95,
+    16.0,
+    38.0,
+    0.4,
+    0.5,
+    12.0,
+    0.4,
+    0.75,
+    0.52
+  ],
+  "trained_at": "2026-09-27T03:00:00.439390+00:00"
+}

@@ -1,0 +1,15 @@
+
+    Clinical Laboratory & Vitals Report
+    Patient Name: Ramesh Kumar
+    Age: 64
+    Sex: Male
+    Blood Pressure: 158/96 mmHg
+    Heart Rate: 88 bpm
+    Fasting Blood Glucose: 178 mg/dL
+    Total Cholesterol: 255 mg/dL
+    Serum Creatinine: 1.85 mg/dL
+    Blood Urea: 62 mg/dL
+    TSH: 2.1 mIU/L
+    History: Hypertension, Diabetes
+    Symptoms: Chest pain, Shortness of breath
+  

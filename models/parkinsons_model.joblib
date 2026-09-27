@@ -1,0 +1,64 @@
+{
+  "format": "scikit-learn-compatible-joblib-v2",
+  "type": "LogisticRegressionClassifier",
+  "disease_id": "parkinsons",
+  "disease_name": "Parkinson's Disease",
+  "dataset": "Oxford Parkinson's Disease Biomedical Voice Dataset",
+  "feature_names": [
+    "MDVP_Fo_Hz",
+    "MDVP_Fhi_Hz",
+    "MDVP_Flo_Hz",
+    "MDVP_Jitter_Percent",
+    "MDVP_Shimmer",
+    "NHR",
+    "HNR",
+    "RPDE",
+    "DFA",
+    "PPE"
+  ],
+  "coefficients": [
+    -0.515768,
+    -0.211637,
+    -0.368093,
+    0.817511,
+    0.785239,
+    0.488105,
+    -0.77157,
+    0.461035,
+    0.371253,
+    0.714363
+  ],
+  "intercept": -0.448943,
+  "scaler_mean": [
+    154.0,
+    197.0,
+    118.0,
+    0.0058,
+    0.0285,
+    0.022,
+    21.8,
+    0.495,
+    0.715,
+    0.2
+  ],
+  "scaler_scale": [
+    36.0,
+    75.0,
+    38.0,
+    0.0032,
+    0.0145,
+    0.025,
+    4.0,
+    0.095,
+    0.052,
+    0.078
+  ],
+  "metrics": {
+    "samples": 800,
+    "accuracy": 0.9663,
+    "precision": 0.963,
+    "recall": 0.9602,
+    "f1_score": 0.9616
+  },
+  "trained_at": "2026-09-27T03:00:07.987656+00:00"
+}

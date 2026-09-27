@@ -1,0 +1,64 @@
+{
+  "format": "scikit-learn-compatible-joblib-v2",
+  "type": "LogisticRegressionClassifier",
+  "disease_id": "liver_disease",
+  "disease_name": "Liver Disease",
+  "dataset": "Indian Liver Patient Dataset (ILPD)",
+  "feature_names": [
+    "Age",
+    "Gender",
+    "Total_Bilirubin",
+    "Direct_Bilirubin",
+    "Alkaline_Phosphotase",
+    "Alamine_Aminotransferase",
+    "Aspartate_Aminotransferase",
+    "Total_Protiens",
+    "Albumin",
+    "Albumin_and_Globulin_Ratio"
+  ],
+  "coefficients": [
+    0.217784,
+    0.121101,
+    0.919955,
+    0.587742,
+    0.60157,
+    0.736703,
+    0.70125,
+    -0.210931,
+    -0.541934,
+    -0.357087
+  ],
+  "intercept": -0.495774,
+  "scaler_mean": [
+    46.0,
+    0.5,
+    1.35,
+    0.5,
+    200.0,
+    40.0,
+    42.0,
+    6.6,
+    3.6,
+    1.02
+  ],
+  "scaler_scale": [
+    15.5,
+    0.5,
+    0.85,
+    0.4,
+    70.0,
+    25.0,
+    28.0,
+    0.85,
+    0.6,
+    0.24
+  ],
+  "metrics": {
+    "samples": 800,
+    "accuracy": 0.9475,
+    "precision": 0.9399,
+    "recall": 0.9343,
+    "f1_score": 0.9371
+  },
+  "trained_at": "2026-09-27T03:00:05.365671+00:00"
+}

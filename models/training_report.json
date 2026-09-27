@@ -1,0 +1,173 @@
+{
+  "success": true,
+  "models_trained": 10,
+  "document_classifier": {
+    "id": "patient_document_classifier",
+    "name": "Patient Document Relevance Classifier",
+    "model_file": "patient_document_classifier.joblib",
+    "scaler_file": "patient_document_scaler.joblib",
+    "features_count": 12,
+    "metrics": {
+      "samples": 1000,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "trained_at": "2026-09-27T03:00:14.328385+00:00"
+  },
+  "models_directory": "/app/applet/models",
+  "trained_at": "2026-09-27T03:00:14.329262+00:00",
+  "models": [
+    {
+      "id": "heart_disease",
+      "name": "Heart Disease",
+      "model_file": "heart_disease_model.joblib",
+      "scaler_file": "heart_disease_scaler.joblib",
+      "features_count": 11,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9625,
+        "precision": 0.9561,
+        "recall": 0.9661,
+        "f1_score": 0.961
+      },
+      "trained_at": "2026-09-27T03:00:00.439390+00:00"
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "model_file": "diabetes_model.joblib",
+      "scaler_file": "diabetes_scaler.joblib",
+      "features_count": 8,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.965,
+        "precision": 0.9554,
+        "recall": 0.9554,
+        "f1_score": 0.9554
+      },
+      "trained_at": "2026-09-27T03:00:01.502581+00:00"
+    },
+    {
+      "id": "breast_cancer",
+      "name": "Breast Cancer",
+      "model_file": "breast_cancer_model.joblib",
+      "scaler_file": "breast_cancer_scaler.joblib",
+      "features_count": 10,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.96,
+        "precision": 0.9649,
+        "recall": 0.9429,
+        "f1_score": 0.9538
+      },
+      "trained_at": "2026-09-27T03:00:02.727177+00:00"
+    },
+    {
+      "id": "kidney_disease",
+      "name": "Kidney Disease",
+      "model_file": "kidney_disease_model.joblib",
+      "scaler_file": "kidney_disease_scaler.joblib",
+      "features_count": 12,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9525,
+        "precision": 0.9461,
+        "recall": 0.9405,
+        "f1_score": 0.9433
+      },
+      "trained_at": "2026-09-27T03:00:04.097217+00:00"
+    },
+    {
+      "id": "liver_disease",
+      "name": "Liver Disease",
+      "model_file": "liver_disease_model.joblib",
+      "scaler_file": "liver_disease_scaler.joblib",
+      "features_count": 10,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9475,
+        "precision": 0.9399,
+        "recall": 0.9343,
+        "f1_score": 0.9371
+      },
+      "trained_at": "2026-09-27T03:00:05.365671+00:00"
+    },
+    {
+      "id": "stroke",
+      "name": "Stroke",
+      "model_file": "stroke_disease_model.joblib",
+      "scaler_file": "stroke_scaler.joblib",
+      "features_count": 10,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9637,
+        "precision": 0.9667,
+        "recall": 0.9288,
+        "f1_score": 0.9474
+      },
+      "trained_at": "2026-09-27T03:00:06.779472+00:00"
+    },
+    {
+      "id": "parkinsons",
+      "name": "Parkinson's Disease",
+      "model_file": "parkinsons_model.joblib",
+      "scaler_file": "parkinsons_scaler.joblib",
+      "features_count": 10,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9663,
+        "precision": 0.963,
+        "recall": 0.9602,
+        "f1_score": 0.9616
+      },
+      "trained_at": "2026-09-27T03:00:07.987656+00:00"
+    },
+    {
+      "id": "thyroid",
+      "name": "Thyroid Disease",
+      "model_file": "thyroid_model.joblib",
+      "scaler_file": "thyroid_scaler.joblib",
+      "features_count": 13,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9625,
+        "precision": 0.9513,
+        "recall": 0.9513,
+        "f1_score": 0.9513
+      },
+      "trained_at": "2026-09-27T03:00:09.351402+00:00"
+    },
+    {
+      "id": "lung_cancer",
+      "name": "Lung Cancer",
+      "model_file": "lung_cancer_model.joblib",
+      "scaler_file": "lung_cancer_scaler.joblib",
+      "features_count": 15,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.9712,
+        "precision": 0.9746,
+        "recall": 0.9439,
+        "f1_score": 0.959
+      },
+      "trained_at": "2026-09-27T03:00:10.869045+00:00"
+    },
+    {
+      "id": "alzheimers",
+      "name": "Alzheimer's Disease",
+      "model_file": "alzheimers_model.joblib",
+      "scaler_file": "alzheimers_scaler.joblib",
+      "features_count": 19,
+      "metrics": {
+        "samples": 800,
+        "accuracy": 0.97,
+        "precision": 0.9678,
+        "recall": 0.9556,
+        "f1_score": 0.9617
+      },
+      "trained_at": "2026-09-27T03:00:12.658428+00:00"
+    }
+  ]
+}

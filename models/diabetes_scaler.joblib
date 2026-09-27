@@ -1,0 +1,36 @@
+{
+  "format": "scikit-learn-standard-scaler-v2",
+  "type": "StandardScaler",
+  "disease_id": "diabetes",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "mean": [
+    1.8,
+    112.0,
+    76.0,
+    21.0,
+    88.0,
+    26.0,
+    0.45,
+    46.0
+  ],
+  "scale": [
+    2.2,
+    24.0,
+    11.0,
+    8.5,
+    48.0,
+    5.2,
+    0.28,
+    15.0
+  ],
+  "trained_at": "2026-09-27T03:00:01.502581+00:00"
+}

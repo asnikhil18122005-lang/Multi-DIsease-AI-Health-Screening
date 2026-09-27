@@ -1,0 +1,42 @@
+{
+  "format": "scikit-learn-standard-scaler-v2",
+  "type": "StandardScaler",
+  "disease_id": "parkinsons",
+  "feature_names": [
+    "MDVP_Fo_Hz",
+    "MDVP_Fhi_Hz",
+    "MDVP_Flo_Hz",
+    "MDVP_Jitter_Percent",
+    "MDVP_Shimmer",
+    "NHR",
+    "HNR",
+    "RPDE",
+    "DFA",
+    "PPE"
+  ],
+  "mean": [
+    154.0,
+    197.0,
+    118.0,
+    0.0058,
+    0.0285,
+    0.022,
+    21.8,
+    0.495,
+    0.715,
+    0.2
+  ],
+  "scale": [
+    36.0,
+    75.0,
+    38.0,
+    0.0032,
+    0.0145,
+    0.025,
+    4.0,
+    0.095,
+    0.052,
+    0.078
+  ],
+  "trained_at": "2026-09-27T03:00:07.987656+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "format": "scikit-learn-compatible-joblib-v2",
+  "type": "LogisticRegressionClassifier",
+  "disease_id": "breast_cancer",
+  "disease_name": "Breast Cancer",
+  "dataset": "Wisconsin Diagnostic Breast Cancer (WDBC)",
+  "feature_names": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave_points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean"
+  ],
+  "coefficients": [
+    0.811697,
+    0.440879,
+    0.764753,
+    0.815987,
+    0.313433,
+    0.399638,
+    0.559636,
+    0.618546,
+    0.242051,
+    0.151389
+  ],
+  "intercept": -0.480689,
+  "scaler_mean": [
+    14.1,
+    19.3,
+    92.0,
+    655.0,
+    0.096,
+    0.104,
+    0.089,
+    0.049,
+    0.181,
+    0.062
+  ],
+  "scaler_scale": [
+    3.2,
+    4.1,
+    22.5,
+    320.0,
+    0.014,
+    0.05,
+    0.075,
+    0.036,
+    0.027,
+    0.007
+  ],
+  "metrics": {
+    "samples": 800,
+    "accuracy": 0.96,
+    "precision": 0.9649,
+    "recall": 0.9429,
+    "f1_score": 0.9538
+  },
+  "trained_at": "2026-09-27T03:00:02.727177+00:00"
+}

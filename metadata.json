@@ -1,0 +1,8 @@
+{
+  "name": "Guardian Health Scan",
+  "description": "Multi-Disease AI Health Screening & Risk Analysis system analyzing patient vitals, symptoms, history, and medical reports across 10 disease models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

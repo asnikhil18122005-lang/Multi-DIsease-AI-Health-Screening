@@ -1,0 +1,15 @@
+Patient Name: Robert Chen
+Patient ID: PT-884210
+Age: 61
+Sex: Male
+Height: 175 cm
+Weight: 84 kg
+Blood Pressure: 145/92 mmHg
+Heart Rate: 82 bpm
+Glucose: 158 mg/dL
+Cholesterol: 240 mg/dL
+Hemoglobin: 13.8 g/dL
+Creatinine: 1.4 mg/dL
+TSH: 5.8 mIU/L
+Symptoms: Fatigue, Shortness of breath
+Medical History: Hypertension, Diabetes

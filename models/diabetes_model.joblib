@@ -1,0 +1,56 @@
+{
+  "format": "scikit-learn-compatible-joblib-v2",
+  "type": "LogisticRegressionClassifier",
+  "disease_id": "diabetes",
+  "disease_name": "Diabetes",
+  "dataset": "PIMA Indians Diabetes Database (NIDDK)",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "coefficients": [
+    0.134469,
+    1.231103,
+    0.21884,
+    0.148487,
+    0.346197,
+    0.613585,
+    0.458884,
+    0.368975
+  ],
+  "intercept": -0.497498,
+  "scaler_mean": [
+    1.8,
+    112.0,
+    76.0,
+    21.0,
+    88.0,
+    26.0,
+    0.45,
+    46.0
+  ],
+  "scaler_scale": [
+    2.2,
+    24.0,
+    11.0,
+    8.5,
+    48.0,
+    5.2,
+    0.28,
+    15.0
+  ],
+  "metrics": {
+    "samples": 800,
+    "accuracy": 0.965,
+    "precision": 0.9554,
+    "recall": 0.9554,
+    "f1_score": 0.9554
+  },
+  "trained_at": "2026-09-27T03:00:01.502581+00:00"
+}

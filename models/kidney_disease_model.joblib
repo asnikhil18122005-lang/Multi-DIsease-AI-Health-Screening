@@ -1,0 +1,72 @@
+{
+  "format": "scikit-learn-compatible-joblib-v2",
+  "type": "LogisticRegressionClassifier",
+  "disease_id": "kidney_disease",
+  "disease_name": "Kidney Disease",
+  "dataset": "UCI Chronic Kidney Disease Clinical Dataset",
+  "feature_names": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "rbc",
+    "bgr",
+    "bu",
+    "sc",
+    "hemo",
+    "htn",
+    "dm"
+  ],
+  "coefficients": [
+    0.231595,
+    0.280106,
+    -0.410511,
+    0.516409,
+    0.248839,
+    0.366391,
+    0.210472,
+    0.699965,
+    1.305491,
+    -0.67573,
+    0.289744,
+    0.262705
+  ],
+  "intercept": -0.51342,
+  "scaler_mean": [
+    50.0,
+    78.0,
+    1.018,
+    0.5,
+    0.25,
+    0.15,
+    118.0,
+    39.0,
+    1.32,
+    13.2,
+    0.3,
+    0.24
+  ],
+  "scaler_scale": [
+    16.0,
+    11.5,
+    0.005,
+    0.9,
+    0.7,
+    0.36,
+    34.0,
+    20.0,
+    0.55,
+    1.9,
+    0.46,
+    0.43
+  ],
+  "metrics": {
+    "samples": 800,
+    "accuracy": 0.9525,
+    "precision": 0.9461,
+    "recall": 0.9405,
+    "f1_score": 0.9433
+  },
+  "trained_at": "2026-09-27T03:00:04.097217+00:00"
+}

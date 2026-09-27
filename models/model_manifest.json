@@ -1,0 +1,222 @@
+{
+  "version": "2.0.0",
+  "modelsDirectory": "models",
+  "backendUrl": "https://multi-disease-backend-5gms.onrender.com",
+  "models": [
+    {
+      "id": "heart_disease",
+      "name": "Heart Disease",
+      "endpoint": "/api/predict/heart_disease",
+      "modelPath": "models/heart_disease_model.joblib",
+      "scalerPath": "models/heart_disease_scaler.joblib",
+      "requiredFeatures": ["Age", "Sex", "RestingBP", "Cholesterol"],
+      "featureOrder": [
+        "Age",
+        "Sex",
+        "ChestPainType",
+        "RestingBP",
+        "Cholesterol",
+        "FastingBS",
+        "RestingECG",
+        "MaxHR",
+        "ExerciseAngina",
+        "Oldpeak",
+        "ST_Slope"
+      ]
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "endpoint": "/api/predict/diabetes",
+      "modelPath": "models/diabetes_model.joblib",
+      "scalerPath": "models/diabetes_scaler.joblib",
+      "requiredFeatures": ["Glucose", "BloodPressure", "BMI", "Age"],
+      "featureOrder": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ]
+    },
+    {
+      "id": "breast_cancer",
+      "name": "Breast Cancer",
+      "endpoint": "/api/predict/breast_cancer",
+      "modelPath": "models/breast_cancer_model.joblib",
+      "scalerPath": "models/breast_cancer_scaler.joblib",
+      "requiredFeatures": ["radius_mean", "texture_mean", "perimeter_mean", "area_mean"],
+      "featureOrder": [
+        "radius_mean",
+        "texture_mean",
+        "perimeter_mean",
+        "area_mean",
+        "smoothness_mean",
+        "compactness_mean",
+        "concavity_mean",
+        "concave_points_mean",
+        "symmetry_mean",
+        "fractal_dimension_mean"
+      ]
+    },
+    {
+      "id": "kidney_disease",
+      "name": "Kidney Disease",
+      "endpoint": "/api/predict/kidney_disease",
+      "modelPath": "models/kidney_disease_model.joblib",
+      "scalerPath": "models/kidney_disease_scaler.joblib",
+      "requiredFeatures": ["age", "bp", "bu", "sc"],
+      "featureOrder": ["age", "bp", "sg", "al", "su", "rbc", "bgr", "bu", "sc", "hemo", "htn", "dm"]
+    },
+    {
+      "id": "liver_disease",
+      "name": "Liver Disease",
+      "endpoint": "/api/predict/liver_disease",
+      "modelPath": "models/liver_disease_model.joblib",
+      "scalerPath": "models/liver_disease_scaler.joblib",
+      "requiredFeatures": [
+        "Age",
+        "Gender",
+        "Total_Bilirubin",
+        "Alkaline_Phosphotase",
+        "Alamine_Aminotransferase",
+        "Aspartate_Aminotransferase",
+        "Albumin"
+      ],
+      "featureOrder": [
+        "Age",
+        "Gender",
+        "Total_Bilirubin",
+        "Direct_Bilirubin",
+        "Alkaline_Phosphotase",
+        "Alamine_Aminotransferase",
+        "Aspartate_Aminotransferase",
+        "Total_Protiens",
+        "Albumin",
+        "Albumin_and_Globulin_Ratio"
+      ]
+    },
+    {
+      "id": "stroke",
+      "name": "Stroke",
+      "endpoint": "/api/predict/stroke",
+      "modelPath": "models/stroke_disease_model.joblib",
+      "alternateModelPaths": ["models/stroke_model.joblib"],
+      "scalerPath": "models/stroke_scaler.joblib",
+      "requiredFeatures": ["gender", "age", "avg_glucose_level", "bmi"],
+      "featureOrder": [
+        "gender",
+        "age",
+        "hypertension",
+        "heart_disease",
+        "ever_married",
+        "work_type",
+        "Residence_type",
+        "avg_glucose_level",
+        "bmi",
+        "smoking_status"
+      ]
+    },
+    {
+      "id": "parkinsons",
+      "name": "Parkinson's Disease",
+      "endpoint": "/api/predict/parkinsons",
+      "modelPath": "models/parkinsons_model.joblib",
+      "scalerPath": "models/parkinsons_scaler.joblib",
+      "requiredFeatures": ["MDVP_Fo_Hz", "MDVP_Jitter_Percent", "MDVP_Shimmer", "HNR"],
+      "featureOrder": [
+        "MDVP_Fo_Hz",
+        "MDVP_Fhi_Hz",
+        "MDVP_Flo_Hz",
+        "MDVP_Jitter_Percent",
+        "MDVP_Shimmer",
+        "NHR",
+        "HNR",
+        "RPDE",
+        "DFA",
+        "PPE"
+      ]
+    },
+    {
+      "id": "thyroid",
+      "name": "Thyroid Disease",
+      "endpoint": "/api/predict/thyroid",
+      "modelPath": "models/thyroid_model.joblib",
+      "alternateModelPaths": ["models/thyroid_disease_model.joblib"],
+      "scalerPath": "models/thyroid_scaler.joblib",
+      "requiredFeatures": ["age", "sex", "TSH"],
+      "featureOrder": [
+        "age",
+        "sex",
+        "on_thyroxine",
+        "query_on_thyroxine",
+        "on_antithyroid_medication",
+        "sick",
+        "pregnant",
+        "thyroid_surgery",
+        "TSH",
+        "T3",
+        "TT4",
+        "T4U",
+        "FTI"
+      ]
+    },
+    {
+      "id": "lung_cancer",
+      "name": "Lung Cancer",
+      "endpoint": "/api/predict/lung_cancer",
+      "modelPath": "models/lung_cancer_model.joblib",
+      "scalerPath": "models/lung_cancer_scaler.joblib",
+      "requiredFeatures": ["GENDER", "AGE"],
+      "featureOrder": [
+        "GENDER",
+        "AGE",
+        "SMOKING",
+        "YELLOW_FINGERS",
+        "ANXIETY",
+        "PEER_PRESSURE",
+        "CHRONIC_DISEASE",
+        "FATIGUE",
+        "ALLERGY",
+        "WHEEZING",
+        "ALCOHOL_CONSUMING",
+        "COUGHING",
+        "SHORTNESS_OF_BREATH",
+        "SWALLOWING_DIFFICULTY",
+        "CHEST_PAIN"
+      ]
+    },
+    {
+      "id": "alzheimers",
+      "name": "Alzheimer's Disease",
+      "endpoint": "/api/predict/alzheimers",
+      "modelPath": "models/alzheimers_model.joblib",
+      "scalerPath": "models/alzheimers_scaler.joblib",
+      "requiredFeatures": ["Age", "Gender", "BMI", "MMSE"],
+      "featureOrder": [
+        "Age",
+        "Gender",
+        "EducationLevel",
+        "BMI",
+        "Smoking",
+        "AlcoholConsumption",
+        "PhysicalActivity",
+        "DietQuality",
+        "SleepQuality",
+        "FamilyHistoryAlzheimers",
+        "CardiovascularDisease",
+        "Diabetes",
+        "Hypertension",
+        "SystolicBP",
+        "DiastolicBP",
+        "CholesterolTotal",
+        "MMSE",
+        "FunctionalAssessment",
+        "MemoryComplaints"
+      ]
+    }
+  ]
+}

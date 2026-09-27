@@ -1,0 +1,42 @@
+{
+  "format": "scikit-learn-standard-scaler-v2",
+  "type": "StandardScaler",
+  "disease_id": "liver_disease",
+  "feature_names": [
+    "Age",
+    "Gender",
+    "Total_Bilirubin",
+    "Direct_Bilirubin",
+    "Alkaline_Phosphotase",
+    "Alamine_Aminotransferase",
+    "Aspartate_Aminotransferase",
+    "Total_Protiens",
+    "Albumin",
+    "Albumin_and_Globulin_Ratio"
+  ],
+  "mean": [
+    46.0,
+    0.5,
+    1.35,
+    0.5,
+    200.0,
+    40.0,
+    42.0,
+    6.6,
+    3.6,
+    1.02
+  ],
+  "scale": [
+    15.5,
+    0.5,
+    0.85,
+    0.4,
+    70.0,
+    25.0,
+    28.0,
+    0.85,
+    0.6,
+    0.24
+  ],
+  "trained_at": "2026-09-27T03:00:05.365671+00:00"
+}

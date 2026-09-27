@@ -1,0 +1,146 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-surface: var(--surface);
+  --color-risk-low: var(--risk-low);
+  --color-risk-moderate: var(--risk-moderate);
+  --color-risk-high: var(--risk-high);
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --shadow-card: 0 1px 2px oklch(0.55 0.06 230 / 0.06), 0 8px 24px oklch(0.55 0.06 230 / 0.08);
+  --shadow-lift: 0 2px 6px oklch(0.55 0.06 230 / 0.08), 0 18px 40px oklch(0.55 0.06 230 / 0.14);
+}
+
+:root {
+  --radius: 0.9rem;
+  --background: oklch(0.985 0.008 220);
+  --foreground: oklch(0.24 0.035 250);
+  --surface: oklch(0.97 0.012 215);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.24 0.035 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.24 0.035 250);
+  --primary: oklch(0.56 0.13 225);
+  --primary-foreground: oklch(0.99 0.005 220);
+  --secondary: oklch(0.94 0.03 200);
+  --secondary-foreground: oklch(0.3 0.06 235);
+  --muted: oklch(0.95 0.012 220);
+  --muted-foreground: oklch(0.52 0.03 245);
+  --accent: oklch(0.72 0.12 185);
+  --accent-foreground: oklch(0.2 0.04 240);
+  --destructive: oklch(0.58 0.2 25);
+  --destructive-foreground: oklch(0.99 0.005 220);
+  --border: oklch(0.9 0.018 225);
+  --input: oklch(0.91 0.018 225);
+  --ring: oklch(0.62 0.12 220);
+  --risk-low: oklch(0.65 0.14 165);
+  --risk-moderate: oklch(0.75 0.14 75);
+  --risk-high: oklch(0.6 0.19 22);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility card-surface {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+}
+
+@utility field-input {
+  width: 100%;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-input);
+  background-color: var(--color-card);
+  padding: 0.6rem 0.8rem;
+  font-size: 0.925rem;
+  color: var(--color-foreground);
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+@utility btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-md);
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  padding: 0.65rem 1.15rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-card);
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+@utility btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card);
+  color: var(--color-foreground);
+  padding: 0.65rem 1.15rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-ring);
+  box-shadow: 0 0 0 3px oklch(0.62 0.12 220 / 0.18);
+}
